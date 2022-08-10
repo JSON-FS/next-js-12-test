@@ -11,6 +11,8 @@ export default function About({ myobj }: AboutProps) {
 export const getServerSideProps: GetServerSideProps<{
   myobj: string;
 }> = async () => {
+  console.log(`sample log ...`);
+
   return {
     props: {
       myobj: "Hello, World!",
