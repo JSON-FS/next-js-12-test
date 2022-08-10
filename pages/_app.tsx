@@ -7,9 +7,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Link href="/">Home</Link>
       <br></br>
-      <Link href="/about">About</Link>
+      <Link href="/about">About (SSR)</Link>
       <br></br>
-      <Link href="/redir">Redit</Link>
+      <Link href="/redir">Sample Page (Static)</Link>
       <hr></hr>
       <Component {...pageProps} />
     </>
